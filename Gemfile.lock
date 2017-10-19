@@ -113,8 +113,6 @@ GEM
     nokogiri (1.8.1-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
-    pg (0.21.0)
-    pg (0.21.0-x64-mingw32)
     public_suffix (3.0.0)
     puma (3.10.0)
     rack (2.0.3)
@@ -209,7 +207,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.6)
+  bootstrap-sass
   byebug
   capybara (~> 2.13)
   carrierwave (~> 1.0)
@@ -217,7 +215,6 @@ DEPENDENCIES
   devise
   geocoder
   jbuilder (~> 2.5)
-  pg
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
