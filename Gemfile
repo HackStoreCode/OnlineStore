@@ -10,7 +10,7 @@ end
 gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'simple_form'
-
+gem 'geocoder'
 gem 'carrierwave', '~> 1.0'
 gem 'pg'
 gem 'stripe'
