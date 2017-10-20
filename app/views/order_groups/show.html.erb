@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Order date:</strong>
+  <%= @order_group.order_date %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @order_group.user %>
+</p>
+
+<%= link_to 'Edit', edit_order_group_path(@order_group) %> |
+<%= link_to 'Back', order_groups_path %>

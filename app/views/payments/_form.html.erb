@@ -1,12 +1,11 @@
-<%= simple_form_for(@product) do |f| %>
+<%= simple_form_for(@payment) do |f| %>
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :name %>
-    <%= f.input :price %>
+    <%= f.input :payment_date %>
     <%= f.input :description %>
-    <%= f.input :available %>
-    <%= f.input :image, as: :file %>
+    <%= f.input :total_amount %>
+    <%= f.association :ordergroup %>
   </div>
 
   <div class="form-actions">
