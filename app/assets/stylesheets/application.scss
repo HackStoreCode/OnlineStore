@@ -17,6 +17,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 .container {margin: 4%
 
 }

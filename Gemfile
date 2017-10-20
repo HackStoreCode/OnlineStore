@@ -12,11 +12,7 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'geocoder'
 gem 'carrierwave', '~> 1.0'
-<<<<<<< HEAD
 
-=======
-#gem 'pg'
->>>>>>> 52866adece2ba5d573a87ea1be8b3d53c6e7dc4f
 gem 'stripe'
 gem 'cloudinary'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
