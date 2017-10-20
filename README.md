@@ -7,6 +7,8 @@ Things you may want to cover:
 
 * Ruby version
 
+
+
 * System dependencies
 
 * Configuration
@@ -21,4 +23,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ERD
+  *
+![alt tag](https://raw.githubusercontent.com/https://github.com/HackStoreCode/OnlineStore/master/erd/erd.png)
