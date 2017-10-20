@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order_date: 2017-10-19 22:39:35
+  product: one
+  ordergroup: one
+
+two:
+  order_date: 2017-10-19 22:39:35
+  product: two
+  ordergroup: two

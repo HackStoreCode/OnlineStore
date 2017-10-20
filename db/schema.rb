@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
 ActiveRecord::Schema.define(version: 20171019225502) do
 
   create_table "users", force: :cascade do |t|
@@ -18,6 +19,7 @@ ActiveRecord::Schema.define(version: 20171019225502) do
     t.string "login"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+
   end
 
   create_table "users", force: :cascade do |t|

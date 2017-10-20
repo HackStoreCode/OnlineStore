@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <div class="thumbnail">
+        <div class="caption">
+          <td><%= image_tag(@product.image_url) %></td>
+          <p>
+            <strong>Description:</strong>
+            <%= @product.description %>
+          </p>
+
+
+
+          <%= link_to 'Back', products_path %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
