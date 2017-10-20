@@ -22,10 +22,12 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li> <%= link_to 'Gallery', products_path %></li>
+        <li><%= link_to 'New product', new_product_path %></li>
+
         <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
 
         <li> <%= link_to 'Login', user_session_path %></li>
-        <li> <%= link_to 'Log Out', destroy_user_session_path, method: :delete %></li>
+        <li> <%= link_to 'Log Out', destroy_user_session_path, method: :delete%></li>
       </ul>
     </div>
   </div>

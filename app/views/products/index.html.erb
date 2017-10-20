@@ -1,34 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Current User products</h1>
-<%= link_to 'New product', new_product_path %>
-
 
 <% @products.each do |product| %>
 <div class="container">
   <div class="flex-block">
     <%=image_tag(product.image_url, class: "img-responsive")%>
-    <p><%= product.description%></p>
-    <p><%= product.price  %></p>
-  </div>
 
-  <div class="flex-block">
-    <%=image_tag(product.image_url, class: "img-responsive")%>
-    <p><%= product.description%></p>
-    <p><%= product.price  %></p>
-  </div>
-
-  <div class="flex-block">
-    <%=image_tag(product.image_url, class: "img-responsive")%>
-    <p><%= product.description%></p>
-    <p><%= product.price  %></p>
-  </div>
-
-
-  <div class="flex-block">
-    <%=image_tag(product.image_url, class: "img-responsive")%>
-    <p><%= product.description%></p>
-    <p><%= product.price  %></p>
+    <%= link_to '🏞 ', product_path(product.id) %>
   </div>
 
 </div>
